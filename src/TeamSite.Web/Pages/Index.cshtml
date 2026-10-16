@@ -1,0 +1,82 @@
+@page
+@{
+    ViewData["Title"] = "Home";
+}
+@*
+    The home page: https://7196.firstpvrobotics.com/
+    Everything below is plain HTML. Change the words between the tags.
+    The notes in <!-- --> tell you what goes where; visitors don't see them.
+*@
+
+<section class="team-hero">
+    <div class="container hero-grid">
+        <div>
+            <!-- FTC or FRC, your team number, and the year you started. -->
+            <span class="eyebrow">FTC Team #7196 · Since 2013</span>
+            <!-- Your team's name. -->
+            <h1>Everything That's Radical</h1>
+            <!-- One sentence about what your team is about. -->
+            <p class="tagline">Exceed last year's results and make it to the World Championship.</p>
+            <!-- Short facts shown as bubbles. Add or delete <li> lines. -->
+            <ul class="chips">
+                <li>Control Award winner</li>
+                <li>Alliance partner selection</li>
+                <li>4 FLL teams mentored weekly</li>
+            </ul>
+        </div>
+        <!-- Your logo, in wwwroot/images/. Use background: #000000 for logos drawn on black. -->
+        <div class="hero-logo" style="background: #ffffff">
+            <img src="/images/radical-logo.png" alt="Everything That&#x27;s Radical logo" />
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container story">
+        <!-- Your team's story. One <p> per paragraph. -->
+        <div class="prose">
+            <p>We are Everything That's Radical, an FTC team at Pleasant Valley High School in Bettendorf, Iowa, established in 2013. Last season we won the Control Award and were chosen as an alliance partner. This year's team is mostly members who are new to FTC, and we're excited to learn STEM skills with FIRST.</p>
+            <p>Every student grows through the FIRST Tech Challenge, whether that's designing and building the robot, putting together a portfolio and presentation, or reaching out to the community. Many of our members also take one or more of Pleasant Valley's Applied Science classes.</p>
+        </div>
+        <aside class="card connect">
+            <h3>Connect with Radical</h3>
+            <!-- Links to your team's accounts. -->
+            <ul class="pills">
+                <li><a href="https://www.instagram.com/team.radical7196" rel="noopener" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/7196.Everything.thats.radical" rel="noopener" target="_blank">Facebook</a></li>
+                <li><a href="https://www.tiktok.com/@@team.radical7196" rel="noopener" target="_blank">TikTok</a></li>
+                <li><a href="https://www.twitter.com/7196ETR" rel="noopener" target="_blank">X</a></li>
+            </ul>
+        </aside>
+    </div>
+    <!-- A team photo in wwwroot/images/. The alt words describe it for people who can't see it. -->
+    <div class="container">
+        <figure class="photo">
+            <img src="/images/radical-team-2025.jpg" alt="The 2025–2026 Everything That&#x27;s Radical team" loading="lazy" />
+            <figcaption class="muted">The 2025–2026 Everything That's Radical team</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!-- Your outreach projects, one card each. -->
+<section class="section section--alt">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">Outreach</span>
+            <h2>In the community</h2>
+            <p class="lede">Some of the ways Radical shares STEM beyond the competition field.</p>
+        </div>
+        <div class="grid grid--3">
+            <div class="card item"><h3>Summer Camp</h3><p class="muted">A one-week June camp gave 18 incoming 7th–9th graders a condensed FTC season, covering the design process, CAD, Java programming and presentation skills, with five Radical members as mentors.</p></div>
+            <div class="card item"><h3>FLL Mentoring (4 Teams)</h3><p class="muted">Business department members with FLL experience visit Flourish and Bots Navy, Flourish and Bots Gold, Forest Grove Elementary and Hopewell Elementary every week for about an hour and a half, helping with project ideas, robot issues and staying on track.</p></div>
+            <div class="card item"><h3>HeartStart</h3><p class="muted">What began as a personal project inspired by a team member's childhood medical anxiety is now a collaboration with educators and healthcare partners to build a hand-cranked model that shows how the heart beats, a STEM tool that genuinely supports young patients.</p></div>
+            <div class="card item"><h3>Iowa FIRST Student Leadership Board</h3><p class="muted">Our team lead represents Pleasant Valley on the Iowa FIRST Student Leadership Board and the Iowa Governor's Youth STEM Advisory Council, keeping the team connected to statewide STEM goals.</p></div>
+            <div class="card item"><h3>Iowa STEM Day at the Fair</h3><p class="muted">We talked with families about STEM and FIRST pathways, highlighting the FLL-to-FTC progression and reaching new students from diverse communities.</p></div>
+            <div class="card item"><h3>Davenport Noon Optimists</h3><p class="muted">PV Robotics places over 220 flags in front yards across the community on five major American holidays, earning $4,500 a year for the program.</p></div>
+            <div class="card item"><h3>Run With Carl</h3><p class="muted">Members designed medals in CAD for the Run With Carl Labor Day race, then 3D printed them for the event.</p></div>
+            <div class="card item"><h3>Homecoming Carnival</h3><p class="muted">With kettle corn sponsored by Ma and Pa's Kettle Korn, our homecoming carnival booth raised $332 for team operations.</p></div>
+            <div class="card item"><h3>Club Fair</h3><p class="muted">A representative at the annual school club fair showed students what FIRST and robotics have to offer.</p></div>
+            <div class="card item"><h3>Monthly Newsletter</h3><p class="muted">A monthly newsletter keeps parents updated on team progress and upcoming events so families can support their students all season.</p></div>
+        </div>
+    </div>
+</section>
